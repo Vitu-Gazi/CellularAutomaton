@@ -56,34 +56,34 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\UniRx-master\Assets\Scripts\UnityTests\Rx\ContinueWithTest.cs" />
-    <Compile Include="Assets\UniRx-master\Assets\Scripts\UnityTests\Rx\RangeTest.cs" />
-    <Compile Include="Assets\UniRx-master\Assets\Scripts\UnityTests\Rx\SchedulerTest.cs" />
-    <Compile Include="Assets\UniRx-master\Assets\Scripts\UnityTests\Rx\Observable.TimeTest.cs" />
-    <Compile Include="Assets\UniRx-master\Assets\Scripts\UnityTests\Rx\ReactivePropertyTest.cs" />
-    <Compile Include="Assets\UniRx-master\Assets\Scripts\UnityTests\Rx\ToTest.cs" />
     <Compile Include="Assets\UniRx-master\Assets\Scripts\UnityTests\Rx\MicroCoroutineTest.cs" />
-    <Compile Include="Assets\UniRx-master\Assets\Scripts\UnityTests\Rx\DoTest.cs" />
     <Compile Include="Assets\UniRx-master\Assets\Scripts\UnityTests\Rx\Observable.Events.cs" />
-    <Compile Include="Assets\UniRx-master\Assets\Scripts\UnityTests\Rx\TakeTest.cs" />
-    <Compile Include="Assets\UniRx-master\Assets\Scripts\UnityTests\Rx\SelectWhereOptimizeTest.cs" />
-    <Compile Include="Assets\UniRx-master\Assets\Scripts\UnityTests\Rx\ObservableTest.cs" />
-    <Compile Include="Assets\UniRx-master\Assets\Scripts\UnityTests\Rx\SubjectTest.cs" />
-    <Compile Include="Assets\UniRx-master\Assets\Scripts\UnityTests\Rx\DurabilityTest.cs" />
     <Compile Include="Assets\UniRx-master\Assets\Scripts\UnityTests\Rx\Observable.ErrorHandlingTest.cs" />
-    <Compile Include="Assets\UniRx-master\Assets\Scripts\UnityTests\Rx\SelectMany.cs" />
     <Compile Include="Assets\UniRx-master\Assets\Scripts\UnityTests\Rx\Observable.ConcatTest.cs" />
-    <Compile Include="Assets\UniRx-master\Assets\Scripts\UnityTests\Rx\DisposableTest.cs" />
-    <Compile Include="Assets\UniRx-master\Assets\Scripts\UnityTests\Rx\QueueWorkerTest.cs" />
-    <Compile Include="Assets\UniRx-master\Assets\Scripts\UnityTests\Rx\ReactriveDictionaryTest.cs" />
     <Compile Include="Assets\UniRx-master\Assets\Scripts\UnityTests\TestUtil.cs" />
     <Compile Include="Assets\UniRx-master\Assets\Scripts\UnityTests\ChainingAssertion.Unity.cs" />
-    <Compile Include="Assets\UniRx-master\Assets\Scripts\UnityTests\Rx\Observable.GeneratorTest.cs" />
     <Compile Include="Assets\UniRx-master\Assets\Scripts\UnityTests\Rx\AggregateTest.cs" />
-    <Compile Include="Assets\UniRx-master\Assets\Scripts\UnityTests\Rx\ConversionTest.cs" />
+    <Compile Include="Assets\UniRx-master\Assets\Scripts\UnityTests\Rx\ContinueWithTest.cs" />
+    <Compile Include="Assets\UniRx-master\Assets\Scripts\UnityTests\Rx\ToTest.cs" />
+    <Compile Include="Assets\UniRx-master\Assets\Scripts\UnityTests\Rx\SelectWhereOptimizeTest.cs" />
+    <Compile Include="Assets\UniRx-master\Assets\Scripts\UnityTests\Rx\Observable.TimeTest.cs" />
+    <Compile Include="Assets\UniRx-master\Assets\Scripts\UnityTests\Rx\TakeTest.cs" />
+    <Compile Include="Assets\UniRx-master\Assets\Scripts\UnityTests\Rx\SubjectTest.cs" />
+    <Compile Include="Assets\UniRx-master\Assets\Scripts\UnityTests\Rx\QueueWorkerTest.cs" />
     <Compile Include="Assets\UniRx-master\Assets\Scripts\UnityTests\Rx\WhenAllTest.cs" />
-    <Compile Include="Assets\UniRx-master\Assets\Scripts\UnityTests\Rx\Observable.ConcurrencyTest.cs" />
+    <Compile Include="Assets\UniRx-master\Assets\Scripts\UnityTests\Rx\ConversionTest.cs" />
     <Compile Include="Assets\UniRx-master\Assets\Scripts\UnityTests\Rx\Observable.PagingTest.cs" />
+    <Compile Include="Assets\UniRx-master\Assets\Scripts\UnityTests\Rx\RangeTest.cs" />
+    <Compile Include="Assets\UniRx-master\Assets\Scripts\UnityTests\Rx\SchedulerTest.cs" />
+    <Compile Include="Assets\UniRx-master\Assets\Scripts\UnityTests\Rx\ReactivePropertyTest.cs" />
+    <Compile Include="Assets\UniRx-master\Assets\Scripts\UnityTests\Rx\DoTest.cs" />
+    <Compile Include="Assets\UniRx-master\Assets\Scripts\UnityTests\Rx\ObservableTest.cs" />
+    <Compile Include="Assets\UniRx-master\Assets\Scripts\UnityTests\Rx\DurabilityTest.cs" />
+    <Compile Include="Assets\UniRx-master\Assets\Scripts\UnityTests\Rx\SelectMany.cs" />
+    <Compile Include="Assets\UniRx-master\Assets\Scripts\UnityTests\Rx\DisposableTest.cs" />
+    <Compile Include="Assets\UniRx-master\Assets\Scripts\UnityTests\Rx\ReactriveDictionaryTest.cs" />
+    <Compile Include="Assets\UniRx-master\Assets\Scripts\UnityTests\Rx\Observable.GeneratorTest.cs" />
+    <Compile Include="Assets\UniRx-master\Assets\Scripts\UnityTests\Rx\Observable.ConcurrencyTest.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\UniRx-master\Assets\Scripts\UnityTests\UnityTests.asmdef" />

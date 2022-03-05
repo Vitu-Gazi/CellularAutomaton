@@ -56,15 +56,14 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Live\GenerateGrid.cs" />
-    <Compile Include="Assets\StarterPack\PrefsValue.cs" />
-    <Compile Include="Assets\StarterPack\Singleton.cs" />
-    <Compile Include="Assets\StarterPack\TestNeuron.cs" />
-    <Compile Include="Assets\UniRx-master\Assets\Scripts\Sandbox\SandboxScene.cs" />
     <Compile Include="Assets\Scripts\Live\CellController.cs" />
-    <Compile Include="Assets\Scripts\RotateController.cs" />
+    <Compile Include="Assets\Scripts\PrefsValue.cs" />
+    <Compile Include="Assets\Scripts\Live\GenerateGrid.cs" />
     <Compile Include="Assets\Scripts\Live\AnotherCell.cs" />
+    <Compile Include="Assets\Scripts\RotateController.cs" />
     <Compile Include="Assets\Scripts\Live\AnotherGrid.cs" />
+    <Compile Include="Assets\UniRx-master\Assets\Scripts\Sandbox\SandboxScene.cs" />
+    <Compile Include="Assets\Scripts\Singleton.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\UniRx-master\Assets\Plugins\UniRx\ReadMe.txt" />

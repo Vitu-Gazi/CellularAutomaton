@@ -56,10 +56,10 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\UniRx-master\Assets\RuntimeUnitTestToolkit\Editor\UnitTestBuilder.cs" />
     <Compile Include="Assets\UniRx-master\Assets\RuntimeUnitTestToolkit\UnitTestRunner.cs" />
-    <Compile Include="Assets\UniRx-master\Assets\RuntimeUnitTestToolkit\Editor\HierarchyTreeBuilder.cs" />
     <Compile Include="Assets\UniRx-master\Assets\RuntimeUnitTestToolkit\Editor\UnitTestBuilder.MenuItems.cs" />
+    <Compile Include="Assets\UniRx-master\Assets\RuntimeUnitTestToolkit\Editor\HierarchyTreeBuilder.cs" />
+    <Compile Include="Assets\UniRx-master\Assets\RuntimeUnitTestToolkit\Editor\UnitTestBuilder.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\UniRx-master\Assets\RuntimeUnitTestToolkit\RuntimeUnitTestToolkit.asmdef" />

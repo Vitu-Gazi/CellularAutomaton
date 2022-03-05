@@ -331,9 +331,10 @@ MonoBehaviour:
   cubePrefab: {fileID: 8189026318584239286, guid: ab1a36e9d10d2e7498644730e170dd43, type: 3}
   parent: {fileID: 1390675730}
   cells: []
-  grid: {x: 5, y: 5, z: 5}
+  grid: {x: 9, y: 9, z: 9}
   birth: 03000000
   isLive: 0200000003000000
+  cube: 1
 --- !u!4 &1163918784
 Transform:
   m_ObjectHideFlags: 0

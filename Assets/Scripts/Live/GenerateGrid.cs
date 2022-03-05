@@ -17,6 +17,8 @@ public class GenerateGrid : Singleton<GenerateGrid>
     [SerializeField] private int[] birth;
     [SerializeField] private int[] isLive;
 
+    [SerializeField] private bool cube;
+
     private bool steping = false;
 
     public int[] Birth => birth;
@@ -26,6 +28,11 @@ public class GenerateGrid : Singleton<GenerateGrid>
 
     private void Start()
     {
+        if (cube)
+        {
+            GenerateCube();
+            return;
+        }
         Generate();
     }
 
